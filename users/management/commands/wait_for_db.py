@@ -19,3 +19,4 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.ERROR("Database is not ready"))
                 time.sleep(1)
         self.stdout.write(self.style.SUCCESS("Database is ready"))
+#
